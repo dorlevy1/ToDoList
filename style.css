@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+
+
+
+
 h1 {
     padding: -15px;
     margin: 0;
@@ -15,6 +19,8 @@ h1 {
     width: 20%;
     border: 1px solid rgb(224, 224, 224);
     border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #enter {
@@ -27,16 +33,25 @@ h1 {
 }
 
 .container1 {
-
-    display: none;
-}
-
-.container11 {
     margin: 0px auto;
     padding: 10px 15px;
     width: 25%;
     border: 1px solid rgb(224, 224, 224);
     border-radius: 15px;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+#checkALL {
+
+    margin: 15px auto;
+
+}
+
+#deleteAll {
+    margin: 15px auto;
 }
 
 #err {
@@ -46,12 +61,14 @@ h1 {
 }
 
 .done {
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
 }
 
 .span {
-    background-color: red;
-    width: 50%;
+    background-color: rgba(255, 0, 0, 0.267);
+    width: 70%;
+    border-bottom: 1px solid rgb(190, 182, 182);
+
 }
 
 #items {
@@ -63,8 +80,9 @@ h1 {
 
 
 .button2 {
-    margin: 0 50%;
-    width: 100px;
+    margin: 0 70%;
+    width: 20%;
+    padding: 5px 10px;
     position: relative;
     top: -20px;
     left: 3.5%;
@@ -75,17 +93,13 @@ h1 {
 }
 
 ul {
-    margin: 0 50px;
+    margin: 0 -35px;
 }
 
 li {
     border-radius: 4px;
-    /* border: 1px solid black; */
-    border: 1px solid rgb(190, 182, 182);
-    /* position: relative;
-    right: 4%; */
+    border-bottom: 1px solid rgb(190, 182, 182);
     padding: 0 10px;
-    /* margin: 0% 34.5%; */
-    width: 50%;
+    width: 70%;
     list-style-type: decimal;
 }
