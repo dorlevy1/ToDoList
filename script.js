@@ -19,20 +19,6 @@ function start() {
 
     }
 }
-// var container = document.createElement("div");
-// container.className = "container";
-// body.appendChild(container);
-// container.appendChild(document.getElementById("whole"));
-// // container.appendChild(document.querySelector("hr"));
-// // container.appendChild(h1);
-// // container.appendChild(items);
-// // container.appendChild(button);
-// // container.appendChild(ul);
-// // container.appendChild(document.querySelector("div"));
-// // container.appendChild(document.querySelector("script"));
-// // container.appendChild(document.querySelector("hr"));
-// // container.appendChild(li);
-
 function itemLength() {
     return items.value.length;
 }
@@ -65,7 +51,6 @@ function createListElement() {
             document.getElementById("amountMinus").innerHTML = `<br>you deleted ${minusCount} lists`;
             amount();
             start();
-            // start(); // its if i wanna refresh the page .
         } else {
             alert("please asign the product that you wanna delete");
 
